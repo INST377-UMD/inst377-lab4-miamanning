@@ -19,20 +19,20 @@
                 </form>
             </div>
             <div class="changeColorBox boxes">
-               <input type="submit" id="colorSubmit" value="Change Color"> <br>
+               <input type="submit" id="colorSubmit" value="Change Color" onclick="changeColor()"> <br>
             </div>
         </div>
 
         <div class="bottom-container">
             <div class="textTesterBox boxes">
-                <form name="textFun">
+                <form name="textFun" onsubmit="return(validateText())">
                     <label for="textTest">Text Tester: </label>
                     <input type="text" id="textTest"> 
                     <input type="submit" id="textSubmit" value="Validate Text"><br>
                 </form>
             </div>
             <div class="addTextBox boxes">
-                <input type="submit" id="addText" value="Add Text">
+                <input type="submit" id="addText" value="Add Text" onclick="addText()">
             </div>
         </div>
     </body>
