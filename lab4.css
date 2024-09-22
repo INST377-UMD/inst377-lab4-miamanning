@@ -1,0 +1,54 @@
+body {
+    background-color:rgb(148, 216, 246);
+    font-family:'Times New Roman', Times, serif;
+}
+
+#pageTitle {
+    font-weight:bold;
+}
+
+.boxes {
+    width: 40%;
+    display: inline-block;
+}
+
+.nameBox {
+    text-align: center;
+    color:white;
+    background-color: rgb(103, 31, 170);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.changeColorBox { 
+    text-align: center;
+    color: white;
+    background-color: rgb(103, 31, 170);
+    margin: 10px;
+    padding:10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.textTesterBox {
+    text-align: center;
+    color: white;
+    background-color: rgb(103, 31, 170);
+    margin:10px;
+    padding:10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.addTextBox {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    background-color: rgb(103, 31, 170);
+    margin:10px;
+    padding:10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
