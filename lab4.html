@@ -2,15 +2,17 @@
     <head>
         <title>INST377 - LAB 4 - Manning</title>
         <link rel="stylesheet" href="lab4.css">
+        <script type="text/javascript" src="lab4.js"></script>
     </head>
 
     <body>
         <h1 id="pageTitle">
             INST377 - Lab 4  
         </h1>
+        
         <div class="top-container" > 
             <div class="nameBox boxes">
-                <form>
+                <form name="nameFun" onsubmit="return(showAlert())">
                     <label for="user">Name: </label>
                     <input type="text" id="user" required> 
                     <input type="submit" id="nameSubmit" value="Alert Me!"> <br>
@@ -23,7 +25,7 @@
 
         <div class="bottom-container">
             <div class="textTesterBox boxes">
-                <form>
+                <form name="textFun">
                     <label for="textTest">Text Tester: </label>
                     <input type="text" id="textTest"> 
                     <input type="submit" id="textSubmit" value="Validate Text"><br>
