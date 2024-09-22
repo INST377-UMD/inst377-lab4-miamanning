@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>INST377 - LAB 4 - Manning</title>
+        <link rel="stylesheet" href="lab4.css">
+        <script type="text/javascript" src="lab4.js"></script>
+    </head>
+
+    <body>
+        <h1 id="pageTitle">
+            INST377 - Lab 4  
+        </h1>
+        
+        <div class="top-container" > 
+            <div class="nameBox boxes">
+                <form name="nameFun" onsubmit="return(showAlert())">
+                    <label for="user">Name: </label>
+                    <input type="text" id="user" required> 
+                    <input type="submit" id="nameSubmit" value="Alert Me!"> <br>
+                </form>
+            </div>
+            <div class="changeColorBox boxes">
+               <input type="submit" id="colorSubmit" value="Change Color" onclick="changeColor()"> <br>
+            </div>
+        </div>
+
+        <div class="bottom-container">
+            <div class="textTesterBox boxes">
+                <form name="textFun" onsubmit="return(validateText())">
+                    <label for="textTest">Text Tester: </label>
+                    <input type="text" id="textTest"> 
+                    <input type="submit" id="textSubmit" value="Validate Text"><br>
+                </form>
+            </div>
+            <div class="addTextBox boxes">
+                <input type="submit" id="addText" value="Add Text" onclick="addText()">
+            </div>
+        </div>
+    </body>
+
+</html>
